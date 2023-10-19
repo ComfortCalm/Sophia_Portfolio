@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MyPortfolio</title>
+
+	<style>
+		body{
+			background-image: url('b.jpg');
+			background-size: 100% 100%;
+			background-attachment: fixed;
+			top: 0;
+			position: sticky;
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			}
+
+
+		.logo img{
+			border-radius: 60px;
+			position: absolute ;
+			top: 2px;
+			left: 2px;
+	
+		}
+
+		.ban img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+
+
+		
+		.home{
+			background-color: black;
+			border-radius: 35px;
+			color: white;
+			font-weight: 600;
+		}
+
+
+		.gif{
+			text-align: center;
+			top: 2px;
+		}
+
+		a{
+			color: black;
+			background-color: rgba(248, 223, 80, 0.418);
+			border: 1px;
+			border-radius: 35px;
+			box-sizing: border-box;
+			cursor: pointer;
+			display: inline-block;
+			letter-spacing: 1px;
+			padding: 14px 30px;
+			font-weight: 600;
+			
+		}
+
+
+		ul{
+			display: block;
+			text-align: center;
+
+		}
+
+		li{
+			display: inline-block;
+			list-style-type: none;
+			margin-left: 50px;
+		}
+		.data-container{
+			position: sticky;
+			top: 0;
+			padding: 10px;
+/*			background-color: lightgray;*/
+
+		}
+
+		.flex-container {
+		
+		height: 500px;
+		width: 95%;
+		margin: 20px;
+		margin-top: 10em;
+		margin-left: 35px;
+		border: 3px solid rgba(0, 0, 0, 0);
+
+		
+		 }
+
+		 .container{
+		 	
+			font-size: 18px;
+			height: auto;
+			width: 95%;
+			margin: 20px;
+			margin-left: 35px;
+			margin-top: 10em;
+			border: 3px solid black;
+		 	background-color: rgba(0, 0, 0, 0.6);
+		 	border-color: rgb(7, 8, 8);
+		 }
+
+		 h1{
+		 	font-size: 35px;
+		 	margin-left: 10px;
+		 	text-align: center;
+		 	color: white;
+		 }
+
+		p{
+			color: black;
+			font-size: 30px ;
+
+		}
+
+		 hr{
+		 	display: block;
+		 	
+		 	background-color: gray;
+		 }
+
+		 .footer{
+		 	align-items: center;
+		 	display: flex;
+		 	background-color: rgb(192, 192, 192);
+		 	justify-content: center;
+
+		 }
+
+		 .links{
+		 	background-color: transparent;
+
+		 }
+
+		 .links img{
+		 	display: inline-block;
+		 	height: 50px;
+		 	position: relative;
+		 	background-color: transparent;
+		 }
+
+
+		 .hov{
+			transition: 1s;
+		}
+		.hov:hover{
+			transform: scale(1.1);
+
+		}
+
+		.copy{
+			color: blue;
+		}
+
+		.content > h1{
+			text-align: center;
+			justify-content: center;
+			display: flex;
+		}
+
+
+
+/*	----------------------------------------------------------	*/
+	.container1 > h1{
+		font-size: 35px;
+		margin-left: 10px;
+		text-align: center;
+		color: white;
+		top: 100px;
+	}	
+
+
+	.container1 > a{
+		color: black;
+		text-decoration: none;
+			background-color: rgba(248, 223, 80, 0.418);
+			border: 1px;
+			border-radius: 35px;
+			height: 150px;
+			cursor: pointer;
+			letter-spacing: 1px;
+			padding: 30px;
+			font-weight: 600;
+			margin-top: 110px;
+	}
+
+	.descrip{
+     margin-top: 150px;
+     margin-left: 20px;
+     width: 850px;
+     font-size: 25px;
+	
+	}
+	.descrip p{
+
+		color: wheat;
+		width: 90%;
+	}
+
+ .sc img{
+  border-radius: 30px;
+  border: 5px solid white;
+
+}
+
+.container1 {
+    display: flex;
+    font-size: 18px;
+    height: auto;
+    width: 95%;
+    margin: 20px;
+    margin-left: 35px;
+    margin-top: 200px;
+    border: 3px solid black;
+    color: white;
+     background-color: rgba(0, 0, 0, 0.6);
+    
+     
+ }
+
+ .flex-container1{
+     height: 500px;
+    width: 95%;
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 35px;
+    border: 3px solid rgba(0, 0, 0, 0);
+
+ }
+
+ ------------------------------------------------------------------
+    .flex-container2{
+         height: 500px;
+    width: 95%;
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 35px;
+	border: 3px solid rgba(0, 0, 0, 0);
+
+    }
+
+    .container2 {
+
+  	color: white;
+    height: auto;
+    width: 95%;
+    margin: 20px;
+    margin-left: 35px;
+    margin-top: 100px;
+    border: 3px solid black;
+     background-color: rgba(0, 0, 0, 0.6);
+ }
+
+     .content2 > h1{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        width: auto;
+        margin: auto;
+        margin-left: 100px;
+        color: white;
+     }
+
+  
+     .profile{
+     	text-align: center;
+     	position: flex;
+
+     }
+
+
+	.content > p{
+	position: flex;
+    width: auto;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    border-top: 100px;
+    color: white;
+	}
+
+	.image{
+		position: relative;
+		text-align: center
+
+	}
+
+	.image1{
+		margin: 20px;
+	}
+
+	.image2{
+		margin: 20px;
+	}
+
+		 
+
+
+	</style>
+
+<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+	<div class="banner">
+		<div class="bground"></div>
+		<div class="logo"><img src="logo.png" width="35%" height="200px" ></div>
+		<div class="ban"><img src="banner.png" width="50%" height="250px"></div>
+		</div>
+
+
+	 <nav class="data-container">
+	 	
+	 	<ul>
+	 		
+	 		<li class='hov'>
+	 			<a href="#home" class="home">Home</a>
+	 		</li>
+	 		<li>
+	 			<a href="#Activities" class='hov'>Activities</a>
+	 		</li>
+	 		<li>
+	 			<a href="#about" class='hov'>About</a>
+	 		</li>
+	 	
+	 	</ul>
+	 
+	 </nav>
+			<div class="gif"><img src="welcome.gif" width="600px" height="300px"></div> 
+	 	<br>
+	
+
+
+
+	<div class="flex-container" id="home"> 
+		<div class="container">
+			<div class="content">
+				<h1>Hi! Im Sophia! <br>
+					Thank you for visiting our page. <br>
+					Hope you'll enjoy 
+				</h1>
+			</div>
+		</div>
+	
+		<div class="image"><img class="image1" src="img1.jpg" width="600" height="400px" style="border-radius: 10%;" >
+	<img class="image2" src="img2.jpg" width="600" height="400px" style="border-radius: 10%;"></div> 
+	</div>
+	
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!-- ----------------------------------------------------------- -->
+
+	<div class="flex-container" id="Activities"> 
+		<div class="container1">
+				
+			<div class="descrip"> 
+				<a href="schedule.html">Class Schedule</a>
+
+				<p>List of all the Schedules the author enrolled during the First Semester of the Academic Year 2023-2024 in Bachelor of Science in Information Technology course at Data Center College of the Philippines Inc</p>.				
+			</div>
+			<div class="sc"> <img src="sched.png" width="500px" height="400px"></div>
+		</div>	
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- ----------------------------------------------------------------- -->
+
+	<div class="flex-container" id="about"> 
+		<div class="container2">
+				
+			<div class="content"> 
+				<h1>Web Designer</h1>
+				<div class="profile" ><img src="me.png" width="300px" height="300px" style="border-radius: 50%; "></div> 
+				<p>Welcome to S Design Studio! <br>
+					We create visual elements of a website including layout, color scheme and topography. <br>We create design and layout of a website or webpages.
+				</p>
+					
+				
+				
+						
+			</div>
+		</div>	
+	</div>
+
+<!-- ----------------------------------------------------------------- -->
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<hr>
+	<div class="footer">
+			<div class='hov'><a href="sms:+639814556195" class="links"><img src="call.png"></a></div>
+			<div class='hov'><a  href="https://twitter.com/s_o_pBTSfan"class="links" class='hov'><img src="tw.png"></a></div>	
+			<div class='hov'>	<a href="https://www.facebook.com/profile.php?id=100010126087611" class="links"><img src="facebook.png" ></a></div>
+			<div class='hov'>	<a href="mailto:sofiabangtan07@gmail.com" class="links"><img src="email.png"></a>	</div>
+			<div class="copy">Copyright © 2023 Sophia Hagnaya</div>
+		
+			
+			</div>
+
+</body>
+</html>
